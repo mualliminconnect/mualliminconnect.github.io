@@ -1,0 +1,115 @@
+/* reset */
+body, div, h1, h2, h3, h5, p, ul, li, figure, figcaption, img { margin: 0; padding: 0;  }
+/* ----- */
+
+@font-face { font-family: Kanit; src: url(../fonts/kanit/Kanit-Bold.ttf); }
+
+* { box-sizing: border-box; }
+
+html { 
+	-webkit-text-size-adjust: 100%;
+    font-variant-ligatures: contextual;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased; }
+
+body {
+	padding: 20px;
+	word-wrap: break-word; /* kata yang kepanjangan dibreak ke baris berikutnya */
+	overflow-wrap: break-word; /* ini juga sama, ada dua nama */
+	-moz-text-size-adjust: 100%; /* mengontrol atas inflansi text pada gadget tertentu */
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%; 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+div.container { 
+	background-color: #dfe3ee;
+	background-image: -o-linear-gradient(bottom left, #dfe3ee, white); 
+	background-image: -webkit-linear-gradient(bottom left, #dfe3ee, white); 
+	background-image: linear-gradient(to top right, #dfe3ee, white); }
+
+/* container */
+div.header { font-family: "Kanit"; padding: 10px 15px; }
+
+div.header h1 { float: left; font-size: 40px; }
+
+div.header h1 a { text-decoration: none; color: black; }
+
+div.daftar-masuk { float: right; margin-top: 12px; font-size: 20px; }
+
+div.daftar-masuk a { text-decoration: none; color: black; }
+
+div.nav { font-family: "kanit"; font-size: 25px; padding: 5px 15px;  border-bottom: 3px solid black; }
+
+div.nav ul { list-style-type: none; }
+
+div.nav ul li { display: inline-block; margin-right: 5px;}
+
+div.nav ul li a { text-decoration: none; color: black; padding: 0 5px;}
+
+div.nav ul li a:hover { background-color: #d1d1d1; }
+
+div.line { padding: 20px; height: 300px; border-bottom: 3px solid black; background-image: url("../images/mountain.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center center;}
+
+div.line h2, div.line h3 { font-family: "Kanit"; }
+
+div.line h2 { font-size: 30px; }
+
+div.line h3 { font-size: 25px; }
+
+div.blog { padding: 15px; }
+
+div.blog h1 { font-family: "kanit"; margin-bottom: 10px; }
+
+div.content { 
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 3vw;
+	-moz-column-gap: 3vw;
+	column-gap: 3vw; }
+
+figure { 
+	display: inline-block;
+	-webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    padding-bottom: 5vh; }
+
+figure img { width: 100%; height: auto; }
+
+figcaption { font-family: "Kanit"; font-size: 20px; }
+
+figcaption.title { font-size: 25px; }
+
+figcaption.date, figcaption.by { font-size: 20px; }
+/* ----- */
+
+/* tentang-kami */
+div.about { margin: 20px; font-family: "kanit"; font-size: 20px; }
+
+div.about h2 { font-size: 30px; }
+
+div.cikal-bakal { }
+
+div.developer { margin-top: 10px; font-family: "Kanit"; overflow: auto; }
+
+div.developer h2 { font-size: 30px; margin-bottom: 10px;}
+
+div.photo { float: left;}
+
+div.photo img { width: 300px; height: auto; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+
+div.ket { float: left; margin-left: 10px; width: 750px; }
+
+/* ----- */
+
+/* footer */
+div.footer { padding: 5px 20px; clear: both; font-family: "Kanit"; background-color: #eeeeee; }
+/* ----- */
