@@ -1,0 +1,75 @@
+/* temporary */
+
+/* temporary */
+
+/* utilities */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* { box-sizing: border-box; }
+/* utilities */
+
+/* container */
+div.container { word-wrap: break-word; }
+/* header */
+div.header { width: 100%; background: #606c88; /* fallback for old browsers */ background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+        
+/* wrapper */
+div.wrapper { width: 95%; margin: 0 auto; padding: 10px 0; }
+div.wrapper a { text-decoration: none; }
+div.wrapper h1 {  color: black; font-family: "Oswald"; font-size: 45px; float: left; }
+div.daftarmasuk { font-family: "Roboto"; font-size: 17px; float: right; margin-top: 15px; margin-left: 10px; }
+div.daftarmasuk a { text-decoration: none; color: black; }
+div.daftarmasuk a:hover { color: #34495e; }
+div.nav { font-family: "Roboto"; font-size: 21px; float: right; margin-top: 12px; }
+div.nav ul li {  list-style-position: none; display: inline-block; margin-left: 10px; }
+div.nav ul li:first-child { margin-left: 0; }
+div.nav ul li a { text-decoration: none; color: black; }
+div.nav ul li a:hover { color: #34495e; }
+/* wrapper */
+/* header */
+
+/* hero */
+div.hero { background: url(../images/street.jpg); background-size: cover; background-position: center bottom; background-repeat: no-repeat; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+div.hero-blog { background: url(../images/beach.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; padding-top: 50px; min-height: 350px; text-align: center; }
+div.hero h1 { font-family: "Roboto"; font-size: 80px; color: white; }
+div.hero h3 { font-family: "Roboto"; font-size: 20px; color: white; }
+div.hero-blog h1 { font-family: "Roboto"; font-size: 80px; color: white; margin-bottom: 20px; }
+div.hero-blog h3 { font-family: "Roboto"; font-size: 20px; color: white; }
+/* hero */
+
+/* react */
+div.react { min-height: 500px; background-color: #f1c40f; }
+/* react */
+
+/* blog */
+div.blog { padding: 30px 0; }
+/* blog-wrapper */
+div.blog-wrapper {max-width: 1030px; margin: 0 auto; padding: 30px; -webkit-columns: 2 400px; -moz-columns: 2 400px; columns: 2 400px; -moz-column-gap: 40px; -webkit-column-gap: 40px; column-gap: 40px; column-fill: auto; }
+/* blog-wrapper */
+/* blog-content */
+div.blog-content { padding-bottom: 40px; display: inline-block; -webkit-column-break-inside: avoid;	-moz-column-break-inside: avoid; column-break-inside: avoid; }
+div.blog-content img { width: 100%; height: 100%; }
+div.blog-content h1 { font-family: "San Francisco"; font-size: 50px; font-weight: 600; margin: 5px 5px 5px 5px; }
+div.blog-content img.photo { width: 70px; height: 70px; border-radius: 200px; float: left; margin-left: 5px; margin-top: 5px; }
+div.blog-content div.cite { font-family: "Roboto"; font-size: 20px; float: left; margin-left: 10px; margin-top: 20px; }
+div.blog-content h3.tag { float: right; margin-top: 20px; margin-right: 5px; font-family:"Roboto"; font-size: 16px ;}
+/* blog */
+
+/* container */
+
+/* footer */
+div.footer { font-family: "Roboto"; font-size: 14px; background: #f6f8f8; border-top: 1px solid #e0e5e6; padding: 10px 0; color: #34495e; }
+div.footer div.wrapper { padding: 0; }
+div.footer div.wrapper p { float: right; margin-top: 2px;}
+div.footer div.wrapper p strong { font-weight: bold; }
+div.footer div.wrapper div.nav { float: left; margin: 0; font-size: 14px; }
+div.footer div.wrapper div.nav ul li { margin-left: 0; margin-right: 10px; }
+div.footer div.wrapper div.nav ul li a { text-decoration: underline; color: #7c9398;  }
+div.footer div.wrapper div.nav ul li a:hover { text-decoration: underline; color: #34495e;  }
+div.footer div.wrapper div.nav ul li:last-child { margin-right: 0; }
+/* footer */
+
+/* kalau mau bikin bagian header full halaman terus di pencet tombol baru ke bawah: height: 100vh; */
