@@ -10,7 +10,7 @@ div.daftarmasuk { margin-top: 22px; margin-bottom: 0; }
 }
 
 @media screen and (max-width: 600px) {
-div.wrapper h1 { float: none; text-align: center; font-size: 1vw; }
+div.wrapper h1 { float: none; text-align: center; font-size: 9vw; }
 div.nav { float: left; margin-top: 20px; clear: right; }
 div.daftarmasuk { margin-top: 22px; margin-bottom: 0; }
 }
