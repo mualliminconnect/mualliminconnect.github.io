@@ -59,7 +59,7 @@ div.blog-content h3.tag { float: right; margin-top: 20px; margin-right: 5px; fon
 /* blog */
 
 /* about-us */
-div.hero-about-us { background: url(../images/pombensin.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; padding-top: 50px; min-height: 350px; text-align: center; }
+div.hero-about-us { background: url(../images/bts.gif); background-size: cover; background-position: center; background-repeat: no-repeat; padding-top: 50px; min-height: 350px; text-align: center; }
 div.hero-about-us h1 { font-family: "Roboto"; font-size: 80px; color: white; }
 div.hero-about-us h3 { font-family: "Roboto"; font-size: 20px; color: white; }
 div.about-us { background-color: #efe9dd; }
