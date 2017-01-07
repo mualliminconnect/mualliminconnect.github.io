@@ -65,7 +65,7 @@ div.hero-about-us h3 { font-family: "Roboto"; font-size: 20px; color: white; }
 div.about-us { background-color: #efe9dd; }
 div.about-us-wrapper { margin: 0 20px 0 20px; font-family: "Roboto"; }
 div.about-us-wrapper h1 { font-family: "Montserrat"; font-size: 50px; }
-div.about-us-wrapper h1:first-child { margin-top: 20px; }
+div.about-us-wrapper h1.mt { margin-top: 20px; }
 div.apa-ini, div.people { font-size: 20px; line-height: 1.2em; margin-top: 15px; margin-bottom: 20px; }
 div.apa-ini p:first-child { margin-bottom: 10px; }
 /* about-us */
