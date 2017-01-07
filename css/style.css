@@ -67,6 +67,7 @@ div.about-us-wrapper { font-family: "Roboto"; }
 div.about-us-wrapper h1 { font-family: "Montserrat"; font-size: 50px; }
 div.apa-ini, div.people { font-size: 20px; line-height: 1.2em; margin-top: 15px; margin-bottom: 20px; }
 div.apa-ini p:first-child { margin-bottom: 10px; }
+div.people img { width: 100px; height: 100px; border-radius: 200px; }
 /* about-us */
 
 /* container */
