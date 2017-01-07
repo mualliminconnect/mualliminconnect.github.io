@@ -58,6 +58,10 @@ div.blog-content div.cite { font-family: "Roboto"; font-size: 20px; float: left;
 div.blog-content h3.tag { float: right; margin-top: 20px; margin-right: 5px; font-family:"Roboto"; font-size: 16px ;}
 /* blog */
 
+/* about-us */
+div.about-us { padding: 20px; background-color: #efe9dd; }
+/* about-us */
+
 /* container */
 
 /* footer */
