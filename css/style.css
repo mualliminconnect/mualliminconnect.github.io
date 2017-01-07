@@ -64,7 +64,7 @@ div.hero-about-us h1 { font-family: "Roboto"; font-size: 80px; color: black; }
 div.hero-about-us h3 { font-family: "Roboto"; font-size: 20px; color: black; }
 div.about-us { background-color: #efe9dd; padding: 20px; text-align: center; }
 div.about-us-wrapper { font-family: "Roboto"; }
-div.about-us-wrapper h1 { font-family: "Montserrat"; font-size: 50px; }
+div.about-us-wrapper h1 { font-family: "Montserrat"; font-size: 50px; margin-bottom: 10px; }
 div.apa-ini, div.people { font-size: 20px; line-height: 1.2em; margin-bottom: 50px; }
 div.apa-ini p:first-child { margin-bottom: 10px; }
 div.people img { width: 200px; height: 200px; border-radius: 50%; }
