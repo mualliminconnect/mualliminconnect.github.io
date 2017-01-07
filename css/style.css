@@ -66,6 +66,7 @@ div.about-us { background-color: #efe9dd; }
 div.about-us-wrapper { margin: 0 20px 0 20px; font-family: "Roboto"; }
 div.about-us-wrapper h1 { font-size: 50px; }
 div.apa-ini, div.people { font-size: 20px; line-height: 1.2em; margin-top: 15px; margin-bottom: 20px; }
+div.apa-ini:firstchild { margin-bottom: 5px; }
 /* about-us */
 
 /* container */
