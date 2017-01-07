@@ -59,6 +59,7 @@ div.blog-content h3.tag { float: right; margin-top: 20px; margin-right: 5px; fon
 /* blog */
 
 /* about-us */
+iv.hero-about-us { background: url(../images/pombensin.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; padding-top: 50px; min-height: 350px; text-align: center; }
 div.about-us { padding: 20px; background-color: #efe9dd; }
 /* about-us */
 
